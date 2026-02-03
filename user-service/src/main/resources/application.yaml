@@ -1,6 +1,12 @@
 spring:
   application:
     name: user-service
-  config:
-    import:optional:configserver:
 
+  config:
+    import: "optional:configserver:"
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration
