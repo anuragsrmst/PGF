@@ -5,6 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
+        <option name="gradleHome" value="$USER_HOME$/Downloads/gradle-8.14.4-bin/gradle-8.14.4" />
         <option name="gradleJvm" value="21" />
         <option name="modules">
           <set>
